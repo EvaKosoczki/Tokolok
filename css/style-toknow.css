@@ -1,0 +1,42 @@
+li {
+  font-size: 15px;
+  }
+
+p {
+  text-align: center;
+  font-size: 12px;
+}
+
+body {
+    font-family: Verdana;
+}
+
+p.cim {
+  padding-top: 30px;
+  font-size: 25px;
+  text-align: center;
+}
+
+div.linkinnyo {
+  display: flex;
+  height: 55px;
+  justify-content: space-around;
+}
+
+a.konyv:link, a.konyv:visited {
+  background-color: #FC930A;
+  color: black;
+  padding: 14px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.konyv:hover, a.konyv:active {
+  background-color: black;
+  color: #FC930A;
+  padding: 14px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

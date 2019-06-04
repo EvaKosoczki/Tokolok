@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+#try {
+    padding: 30px;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 15px;
+}

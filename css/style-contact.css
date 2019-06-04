@@ -1,0 +1,71 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    width: 500px;
+    height: 500px;
+}
+
+#left-column {
+    justify-content: flex-start;
+}
+
+#right-column {
+    justify-content: space-around;
+}
+
+#socmed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socmed-icon {
+    padding: 10px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 12px;
+}
+
+/*   ASIDE RÉSZ   */
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-element {
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    width: 70px;
+}
+
+input.input-element {
+    width: 300px;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+}
+
+#submit-btn {
+    padding-left: 70px;
+}

@@ -1,0 +1,126 @@
+html {
+    font-size: 10px;
+    font-family: Verdana;
+    color: #FC930A;
+}
+
+body {
+    background-color: black;
+    color:  coral;
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+img {
+    border-radius: 15px;
+}
+
+a:link {
+    color: #FC930A;
+}
+
+a:visited {
+    color: #eb6123;
+}
+
+a:hover {
+    color: red;
+}
+
+.logo {
+    border-radius: 10px;
+    height: 15px;
+    width: auto;
+}
+
+#logo {
+    border-radius: 3px;
+    height: 60px;
+    width: auto;
+}
+
+nav.navbar {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    justify-content: space-around;
+}
+
+#secunder-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+span {
+    font-size: 20px;
+}
+
+.menu-element {}
+
+/* class="navbar" a felső navigációs sáv elemei */
+
+.navbar h2 {
+    background-color: black;
+    color: black;
+    /* Fekete-fehér */
+    background-color: black;
+    color: black;
+}
+
+.navbar img {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.unseeable {
+    visibility: hidden;
+}
+
+/* A header háttere kép */
+header {
+    background-image: url("/img/pumpkinmain.gif"); 
+}
+
+.header-text {
+    color:  coral;
+    font-size: 3em;
+    padding: 25px;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -2px black;
+}
+
+/* A footer háttere kép */
+footer {
+    background-image: url("/img/pumpkinmain.gif"); 
+}
+
+.footer-text {
+    color:  coral;
+    font-size: 3em;
+    padding: 25px;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -2px black;
+}
+
+/*
+.container h1 {
+    background-color: black;
+}
+
+.container div {
+    position: absolute;
+    top: 210px;
+    left: 225px;
+    font-size: 1.5em;
+    padding: 5px 10px;
+    background-color: rgb(236, 179, 55);
+    box-shadow: 0 0 4px;
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    transform-origin: 50% 0%;
+}
+*/
